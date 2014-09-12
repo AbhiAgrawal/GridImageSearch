@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <EditText
+<!--     <EditText
         android:id="@+id/etQuery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,15 +23,24 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:text="@string/search"
-        android:onClick="onImageSearch" />
+        android:onClick="onImageSearch" /> -->
 
     <GridView
         android:id="@+id/gvResults"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/btSearch"
+        android:layout_alignParentTop="true"
         android:numColumns="3" >
     </GridView>
+    
+    <!-- <com.origamilabs.library.views.StaggeredGridView
+        android:id="@+id/gvResults"
+        staggered:numColumns="2"
+        staggered:drawSelectorOnTop="true"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btSearch"
+        android:layout_height="wrap_content" />-->
 
 </RelativeLayout>
