@@ -25,11 +25,12 @@ public final class R {
         public static final int etSiteFilter=0x7f080008;
         public static final int gvResults=0x7f08000b;
         public static final int ivResult=0x7f08000a;
-        public static final int miSettings=0x7f08000d;
+        public static final int miSettings=0x7f08000e;
+        public static final int miShare=0x7f08000c;
         public static final int spColorFilter=0x7f080004;
         public static final int spImageSize=0x7f080002;
         public static final int spImageType=0x7f080006;
-        public static final int svActionSearch=0x7f08000c;
+        public static final int svActionSearch=0x7f08000d;
         public static final int tvColorFilter=0x7f080003;
         public static final int tvImageSize=0x7f080001;
         public static final int tvImageType=0x7f080005;
@@ -43,7 +44,8 @@ public final class R {
         public static final int item_image_result=0x7f030003;
     }
     public static final class menu {
-        public static final int menu_simple=0x7f070000;
+        public static final int menu_share_image=0x7f070000;
+        public static final int menu_simple=0x7f070001;
     }
     public static final class string {
         public static final int advanced_search=0x7f040005;
@@ -57,6 +59,7 @@ public final class R {
         public static final int image_type=0x7f04000a;
         public static final int save=0x7f04000d;
         public static final int search=0x7f040002;
+        public static final int share=0x7f04000e;
         public static final int site_filter=0x7f04000b;
         public static final int title_activity_advance_search=0x7f040006;
         public static final int title_activity_image_display=0x7f040004;
