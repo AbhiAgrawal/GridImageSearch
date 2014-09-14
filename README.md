@@ -3,9 +3,9 @@ GridImageSearch
 
 This is an Grid Image Search application for searching images using google image api.
 
-Time spent: 7 hours spent in total
+<b>Time spent:</b> 7 hours spent in total
 
-Completed user stories:
+<b>Completed user stories:</b>
 
 User can enter a search query that will display a grid of image results from the Google Image API.
 
@@ -24,12 +24,12 @@ User can tap on any image in results to see the image full-screen.
 
 User can scroll down “infinitely” to continue loading more image results (up to 8 pages).
 
-Optional: Use the ActionBar SearchView or custom layout as the query box instead of an EditText.
+<b>Optional:</b> Use the ActionBar SearchView or custom layout as the query box instead of an EditText.
 
-Optional: User can share an image to their friends or email it to themselves.
+<b>Optional:</b> User can share an image to their friends or email it to themselves.
 
 
-Notes:
+<b>Notes:</b>
 
 Walkthrough of the user stories:
 
